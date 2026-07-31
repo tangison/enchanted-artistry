@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../assets/fonts/bodoni-moda-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/manrope-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/manrope-600.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+:root {
+  --enchanted-ink: #363238;
+  --enchanted-rose: #b96f72;
+  --enchanted-rose-deep: #9b555d;
+  --enchanted-lavender: #9b8bb7;
+  --enchanted-lavender-deep: #786892;
+  --enchanted-gold: #c89a68;
+  --enchanted-blush: #f7e8e5;
+  --enchanted-paper: #fff9f7;
+  --enchanted-muted: #6d6468;
+  --enchanted-line: rgba(119, 83, 91, 0.18);
+  --enchanted-display: "Bodoni Moda", "Times New Roman", serif;
+  --enchanted-sans: "Manrope", Arial, sans-serif;
+  --enchanted-radius-sm: 0.2rem;
+  --enchanted-radius-card: 0.95rem;
+  --enchanted-page: min(92vw, 88rem);
+  --enchanted-section-space: clamp(4.8rem, 8vw, 7rem);
+}

@@ -1,0 +1,71 @@
+# Enchanted Artistry Landing Page System
+
+## Operating mode
+
+Starter-and-build client demo. The responsive landing page is implemented locally and verified. GitHub publishing and deployment remain on hold until the user separately authorises them.
+
+## Reading order
+
+1. `SYSTEM.md`
+2. `PRODUCT.md`
+3. `BRAND.md`
+4. `CONTENT_PLAN.md`
+5. `BUILD_PLAN.md`
+6. `ASSET_MANIFEST.md`
+7. `PROOF.md`
+
+## Exact deliverable
+
+- One responsive Next.js landing page at `/`.
+- Visual direction based on the client-approved screenshot in `reference/client-approved-layout/`.
+- Authentic portraits of founders Anthea Jade Feris and Chané Yvette Philander.
+- Preserved client logo, five service images and one floral hero field.
+- Desktop and mobile navigation, anchor links and an email enquiry action.
+- `noindex, nofollow` while the page remains a demo.
+
+## Identity and asset rules
+
+- The supplied raster logo is authoritative. Use only the PNG derivatives in `public/logos/` or `assets/logos/`.
+- Never trace, redraw, regenerate, retype, simplify, recolour or reinterpret the logo.
+- Do not create an SVG logo. Prior vector attempts are rejected and absent.
+- Founder portraits are authentic client-supplied photographs. Do not retouch faces or present generated people as founders.
+- Generated supporting images may illustrate service categories only. They are not documentary evidence.
+- Preserve the approved blush, rose, lavender, charcoal and gold visual language.
+
+## Factual restrictions
+
+- Do not invent prices, opening hours, programmes, testimonials, awards, partners, phone numbers, social handles or impact figures.
+- Future youth mentorship and media initiatives must remain future-facing.
+- `heyitschane@outlook.com` is user supplied as the business email and is used for the demo enquiry action; reconfirm it before production launch.
+- No booking, shop, newsletter subscription or social integration is implemented.
+
+## Interaction rules
+
+- Primary conversion: email enquiry.
+- All navigation items point to real sections on this page.
+- The mobile menu must remain keyboard accessible and expose `aria-expanded`.
+- Respect `prefers-reduced-motion`.
+
+## Run and verify
+
+```bash
+npm install
+npm run dev
+npm run lint
+npm run build
+```
+
+## Deployment restrictions
+
+- Keep the demo private and noindexed.
+- Do not connect a production domain, analytics, external forms or payment systems.
+- Do not push to GitHub until the user supplies and authorises the target repository access.
+
+## Release gate
+
+- Production build and lint pass.
+- No horizontal overflow at 390 px or 1440 px.
+- All images load and founder mapping is correct.
+- Mobile navigation opens and closes correctly.
+- Contact destination and public legal details are reconfirmed.
+- Repository scope, owner, visibility and branch are confirmed before push.
