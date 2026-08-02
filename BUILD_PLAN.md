@@ -1,45 +1,35 @@
 # Build Plan
 
-## Architecture
+## Current interpretation
 
-- Next.js 16 App Router.
-- React 19 and TypeScript.
-- Local CSS and self-hosted Bodoni Moda/Manrope; packaged Allura script font.
-- Next Image for logo, service and founder assets.
-- One static route with no backend or third-party scripts.
+The project is a public, single-page Enchanted Artistry CC website on the existing Next.js 16 App Router stack. The user has authorised a GitHub update and the repository is already connected to Vercel.
 
-## Implemented sequence
+The page follows the supplied client layout direction while retaining its own responsive composition. It must preserve the approved raster logo and use the real supplied founder photographs.
 
-1. Responsive header with preserved logo, section anchors and enquiry CTA.
-2. Floral hero with brand lockup, tagline and calling statement.
-3. Four-value strip: faith, purpose, creative inspiration and love.
-4. Five service cards: makeup, hair, drama coaching, mentorship and content creation.
-5. Umbrella-brand vision section with four core values.
-6. Founder profiles using authentic client portraits.
-7. Email enquiry banner.
-8. Footer with legal name, Windhoek location, email and Matthew 5:16 reference.
+## Client-approved corrections
 
-## Verification criteria
+1. Remove the faith-based value strip.
+2. Replace the four umbrella-value pills with an Our Story statement.
+3. Keep five service categories, but use **Guidance** for mothers through pregnancy, post-partum and breastfeeding.
+4. Content creation must not claim photography. It covers creative content, design and meaningful storytelling.
+5. Use the new black-and-white Chané photograph and the new Anthea outdoor photograph.
+6. Present the founders as an overlapping, face-to-face hero composition. Chané is mirrored in the hero only to create the requested direction.
+7. Use a two-stroke mobile navigation control, not a generic three-stroke hamburger.
+8. Add restrained CSS motion with a reduced-motion fallback.
+9. Add a favicon, web manifest and public indexing settings.
 
-| Outcome | Verification |
-| --- | --- |
-| Logo preserved | Only approved PNG displayed; no SVG or retyped mark |
-| Founder mapping correct | Chané uses supplied image 2; Anthea uses supplied image 1 |
-| Responsive layout | Browser render at 1440 × 1000 and 390 × 844 |
-| No overflow | `scrollWidth === clientWidth` at both tested widths |
-| Images valid | All ten rendered images load with non-zero natural width |
-| Mobile interaction | Menu opens and exposes real section links |
-| Code quality | `npm run lint` and `npm run build` exit successfully |
-| Demo protection | Metadata sets `noindex, nofollow` |
+## Architecture and verification
+
+- Next.js 16, React 19, TypeScript and local CSS.
+- One static public route, no backend, analytics or invented booking flow.
+- Native CSS powers page entrance, navigation and hover motion. No unnecessary motion dependency was added.
+- Email is the only verified public contact route. Public phone numbers remain missing and are not inferred from private registration material.
+- Verify with lint, production build, desktop/mobile browser renders, menu interaction, image load checks, reduced-motion review and Git remote SHA comparison after push.
 
 ## Rejected alternatives
 
-- Recreating or tracing the logo as SVG.
-- Presenting generated women as the founders.
-- Copying low-resolution service crops out of the screenshot.
-- Adding fake shop, portfolio, academy, journal, booking or newsletter functionality.
-- Publishing the unverified phone number and domain shown in the concept screenshot.
-
-## Remaining authorised step
-
-Prepare the existing local repository for a GitHub push after the user supplies the target repository and confirms ownership, visibility and branch. Deployment is still not authorised.
+- Recreating, tracing or changing the official logo as SVG.
+- Generating people or altering supplied founder images.
+- Repeating the previous faith-based strip or unverified values as live content.
+- Adding photography as a content-creation claim.
+- Publishing missing phone numbers, domains, social accounts, pricing or booking details.

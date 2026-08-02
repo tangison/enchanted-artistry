@@ -2,69 +2,50 @@
 
 ## Message hierarchy
 
-1. Enchanted Artistry is more than a brand; it is a calling.
-2. Beauty, creativity, confidence, faith and purpose belong under one umbrella.
-3. Current service directions are introduced without unsupported claims.
-4. Authentic founders anchor the story.
-5. Visitors can send an email enquiry.
+1. Enchanted Artistry brings cosmetology, creativity and caring guidance together.
+2. It is a welcoming, purposeful space for women, including expectant and new mothers.
+3. Services are introduced without unverified prices, availability or outcomes.
+4. The real founders carry the story.
+5. Visitors can send a direct email enquiry.
 
-## Live section copy
+## Live copy
 
 ### Hero
 
+- Brand line: `Cosmetology ✦ Creativity ✦ Mentorship, guidance & coaching`
 - Tagline: `Creating beauty. Inspiring purpose. Cultivating hope.`
-- Statement: `More than a brand — It's a calling.`
-- Body: dreamers, creators and purpose-driven women unlocking potential, nurturing confidence and creating spaces where creativity and faith meet.
-
-### Values
-
-- Faith based — Everything we do is rooted in faith.
-- Purpose driven — We help people discover their God-given gifts.
-- Creatively inspired — We believe creativity changes lives.
-- Made with love — Passion, excellence and care in every detail.
+- Statement: `More than a brand. It's a calling.`
+- Body: `We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.`
 
 ### Services
 
-- Makeup — bridal, special occasions and confidence-led beauty.
-- Hair — styling, treatments and thoughtful transformation.
-- Drama coaching — confidence, expression, acting and performance.
-- Mentorship — personal growth, purpose and practical encouragement.
-- Content creation — photography, video, design and meaningful storytelling.
+- Makeup: beauty looks created with care for special moments.
+- Hair: styling that lets confidence come through.
+- Drama coaching: a creative space for expression, confidence and performance.
+- Guidance: guiding mothers through pregnancy, post-partum and breastfeeding.
+- Content creation: creative content, design and meaningful storytelling.
 
-### Vision
+### Our Story
 
-Enchanted is the umbrella brand for purpose-driven ventures that inspire confidence, creativity and meaningful community impact. It begins with quality beauty experiences and grows toward mentorship, creative arts, content creation and youth development.
+`Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.`
 
 ### Founders
 
-**Chané Yvette Philander — co-founder**
-
-Creative direction, connection, expression and transformative storytelling.
-
-**Anthea Jade Feris — co-founder**
-
-Vision, strategy, people, purpose and empowerment.
+- Chané Yvette Philander, co-founder: `The Creative.`
+- Anthea Feris, co-founder: `Care with purpose.`
 
 ### Contact
 
-Demo enquiry email: `heyitschane@outlook.com`
+- Email: `heyitschane@outlook.com`
+- No public phone number is published until the client confirms both intended numbers.
 
 ## Fact ledger
 
 | Claim | Classification | Publishing rule |
 | --- | --- | --- |
 | ENCHANTED ARTISTRY CC legal name | Verified in prior registration work | May publish in footer |
-| Founder full names and photo mapping | User supplied | May publish in demo |
-| Umbrella brand, values and purpose | User supplied | Core public narrative |
-| Service categories | Client-approved screenshot and user brief | May publish as directions; avoid prices/availability |
-| Future mentorship/media initiatives | User supplied | Future tense only |
-| `heyitschane@outlook.com` | User supplied business email | Demo use; reconfirm before production |
-| Screenshot phone/domain/social links | Unverified | Excluded |
-
-## Production confirmation still needed
-
-- Final public email and preferred response channel.
-- Production phone/WhatsApp if any.
-- Confirmed social profile URLs.
-- Whether bookings, academy, portfolio, shop or journal will be separate later pages.
-- Production domain, privacy contact and form-processing consent.
+| Founders and replacement photographs | User supplied | May publish as current founder artwork |
+| New guidance and content-creation corrections | Client feedback supplied by user | Must replace prior wording |
+| Brand positioning and story | User supplied and editorially condensed | May publish without claims of outcomes or availability |
+| Email address | User supplied | Current enquiry route |
+| Phone numbers, social accounts, domain, pricing and booking policy | Missing | Do not invent or publish |

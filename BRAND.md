@@ -7,7 +7,7 @@ The client-approved screenshot combines a pale blush field, soft floral corners,
 ## Personality
 
 - Feminine, assured and warm.
-- Faith-rooted and purpose-driven.
+- Purpose-led, maternal-care aware and creatively expressive.
 - Creative and detailed without becoming cluttered.
 - Premium but approachable.
 
@@ -43,10 +43,11 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 
 ## Composition
 
-- Floral hero with deliberate open space for brand and message.
+- Blush-and-lavender hero with deliberate open space, an overlapping face-to-face founder composition and subtle orbit lines.
 - Fine uppercase labels and high-contrast serif section titles.
-- A four-item values strip, five rounded service cards and two substantial founder cards.
-- Controlled sparkles, heart rules and botanical detail consistent with the reference.
+- Five service cards and two substantial founder cards.
+- No faith-based values strip or four-pill vision block.
+- Warm paper, rose and lavender depth rather than heavy floral decoration.
 - Alternating ivory, blush and lavender-to-rose sections.
 
 ## Image direction
@@ -62,3 +63,10 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 - Decorative rose is not used for long body text.
 - Interactive states remain visible and keyboard operable.
 - Reduced-motion mode removes nonessential transitions.
+
+## Motion
+
+- Purpose: establish a calm entrance rhythm and make navigation state clear.
+- CSS is the only motion engine. Hero and service content rise once, mobile navigation slides in from its right-edge trigger, and the sticky header moves up only when the visitor scrolls down.
+- Timing uses `--entry` and `--exit` cubic-bezier tokens. Small interactions run at 180 to 240 ms; the hero entrance is under 700 ms.
+- Only opacity and transform animate. Reduced-motion users receive immediate state changes.

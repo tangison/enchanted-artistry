@@ -6,7 +6,7 @@
 
 Legal entity: **ENCHANTED ARTISTRY CC**
 
-Mode: client demo, locally implemented
+Mode: public website refinement, GitHub-to-Vercel deployment connected
 
 ## Product statement
 
@@ -25,11 +25,13 @@ Help a first-time visitor understand the brand in under 30 seconds and invite a 
 ## Confirmed facts
 
 - Enchanted Artistry is the umbrella brand.
-- Core values: excellence, authenticity, empowerment and heartfelt service.
+- Current public offer combines cosmetology, creativity and caring guidance.
 - Purpose: celebrate beauty, inspire creativity, build confidence and encourage self-expression.
 - Legal name: ENCHANTED ARTISTRY CC.
 - Founders: Anthea Jade Feris and Chané Yvette Philander.
-- Service directions represented in the approved concept: makeup, hair, drama coaching, mentorship and content creation.
+- Service directions: makeup, hair, drama coaching, guidance and content creation.
+- Guidance is focused on mothers through pregnancy, post-partum and breastfeeding.
+- Content creation covers creative content, design and meaningful storytelling, not photography.
 - Future direction includes youth mentorship, creative arts, content creation and media experience.
 
 ## Boundaries
@@ -44,4 +46,4 @@ Help a first-time visitor understand the brand in under 30 seconds and invite a 
 - Visually recognisable against the approved reference without copying unusable screenshot pixels into production.
 - Authentic logo and founder portraits remain intact.
 - Clear service and umbrella-brand story on desktop and mobile.
-- Responsive, keyboard accessible, noindexed and production-build clean.
+- Responsive, keyboard accessible, indexable and production-build clean.

@@ -2,7 +2,7 @@
 
 ## Operating mode
 
-Starter-and-build client demo. The responsive landing page is implemented locally and verified. GitHub publishing and deployment remain on hold until the user separately authorises them.
+Production refinement. The public repository is connected to Vercel, so a verified push to `main` is the release handoff.
 
 ## Reading order
 
@@ -19,9 +19,9 @@ Starter-and-build client demo. The responsive landing page is implemented locall
 - One responsive Next.js landing page at `/`.
 - Visual direction based on the client-approved screenshot in `reference/client-approved-layout/`.
 - Authentic portraits of founders Anthea Jade Feris and Chané Yvette Philander.
-- Preserved client logo, five service images and one floral hero field.
+- Preserved client logo, five service images and the current supplied founder photos.
 - Desktop and mobile navigation, anchor links and an email enquiry action.
-- `noindex, nofollow` while the page remains a demo.
+- Public indexing, favicon and web manifest.
 
 ## Identity and asset rules
 
@@ -57,9 +57,8 @@ npm run build
 
 ## Deployment restrictions
 
-- Keep the demo private and noindexed.
-- Do not connect a production domain, analytics, external forms or payment systems.
-- Do not push to GitHub until the user supplies and authorises the target repository access.
+- Do not connect an unapproved custom domain, analytics, external forms or payment systems.
+- Push only the audited current project to the existing `main` remote.
 
 ## Release gate
 

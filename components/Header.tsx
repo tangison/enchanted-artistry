@@ -1,53 +1,69 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const links = [
-  ["Home", "#home"],
   ["About", "#about"],
   ["Services", "#services"],
-  ["Vision", "#vision"],
-  ["Team", "#team"],
+  ["Our story", "#story"],
+  ["Founders", "#founders"],
   ["Contact", "#contact"],
 ];
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [hidden, setHidden] = useState(false);
+
+  useEffect(() => {
+    let previous = window.scrollY;
+    const onScroll = () => {
+      const current = window.scrollY;
+      setHidden(current > 150 && current > previous);
+      previous = current;
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
-    <header className="site-header">
-      <a className="brand-link" href="#home" aria-label="Enchanted Artistry home">
-        <Image
-          src="/logos/enchanted-artistry-transparent.png"
-          alt="Enchanted Artistry CC"
-          width={1288}
-          height={840}
-          priority
-        />
-      </a>
-      <button
-        className="menu-button"
-        type="button"
-        aria-expanded={open}
-        aria-controls="site-navigation"
-        onClick={() => setOpen((value) => !value)}
-      >
-        <span />
-        <span />
-        <span />
-        <span className="sr-only">Toggle navigation</span>
-      </button>
-      <nav id="site-navigation" className={open ? "nav-links is-open" : "nav-links"}>
-        {links.map(([label, href]) => (
-          <a key={label} href={href} onClick={() => setOpen(false)}>
-            {label}
-          </a>
-        ))}
-        <a className="button button-small" href="#contact" onClick={() => setOpen(false)}>
-          Enquire now
+    <>
+      <header className={`site-header${hidden && !open ? " is-hidden" : ""}`}>
+        <a className="brand-mark" href="#top" aria-label="Enchanted Artistry home">
+          <Image
+            src="/logos/enchanted-artistry-transparent.png"
+            alt="Enchanted Artistry CC"
+            width={330}
+            height={141}
+            priority
+          />
         </a>
-      </nav>
-    </header>
+
+        <button
+          className="menu-button"
+          type="button"
+          aria-expanded={open}
+          aria-controls="primary-navigation"
+          aria-label={open ? "Close navigation" : "Open navigation"}
+          onClick={() => setOpen((value) => !value)}
+        >
+          <span />
+          <span />
+        </button>
+
+        <nav id="primary-navigation" className={`nav-links${open ? " is-open" : ""}`} aria-label="Primary navigation">
+          {links.map(([label, href]) => (
+            <a key={href} href={href} onClick={() => setOpen(false)}>
+              {label}
+            </a>
+          ))}
+          <a className="nav-cta" href="#contact" onClick={() => setOpen(false)}>
+            Send an enquiry
+          </a>
+        </nav>
+      </header>
+      {open ? <button className="nav-backdrop" type="button" aria-label="Close navigation" onClick={() => setOpen(false)} /> : null}
+    </>
   );
 }

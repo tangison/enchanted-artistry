@@ -1,100 +1,57 @@
 import Image from "next/image";
-import Header from "@/components/Header";
+import type { CSSProperties } from "react";
+import Header from "../components/Header";
 
 const services = [
-  {
-    title: "Makeup",
-    copy: "Bridal, special occasions and confidence-led beauty.",
-    image: "/images/service-makeup.webp",
-    alt: "Makeup brushes and cosmetics arranged on blush fabric",
-  },
-  {
-    title: "Hair",
-    copy: "Styling, treatments and thoughtful transformation.",
-    image: "/images/service-hair.webp",
-    alt: "Long styled waves viewed from behind in a beauty studio",
-  },
-  {
-    title: "Drama coaching",
-    copy: "Confidence, expression, acting and performance.",
-    image: "/images/service-drama.webp",
-    alt: "White theatre masks resting on rose-coloured fabric",
-  },
-  {
-    title: "Mentorship",
-    copy: "Personal growth, purpose and practical encouragement.",
-    image: "/images/service-mentorship.webp",
-    alt: "Open notebook and pen arranged on soft blush fabric",
-  },
-  {
-    title: "Content creation",
-    copy: "Photography, video, design and meaningful storytelling.",
-    image: "/images/service-content.webp",
-    alt: "Camera and microphone arranged for content creation",
-  },
+  { title: "Makeup", copy: "Beauty looks created with care for your special moments.", image: "/images/service-makeup.webp", alt: "Makeup brushes and cosmetics" },
+  { title: "Hair", copy: "Styling that lets your confidence come through.", image: "/images/service-hair.webp", alt: "Styled hair" },
+  { title: "Drama coaching", copy: "A creative space for expression, confidence and performance.", image: "/images/service-drama.webp", alt: "Theatre masks on silk" },
+  { title: "Guidance", copy: "Guiding mothers through pregnancy, post-partum and breastfeeding.", image: "/images/service-mentorship.webp", alt: "Notebook and pen" },
+  { title: "Content creation", copy: "Creative content, design and meaningful storytelling.", image: "/images/service-content.webp", alt: "Content creation equipment" },
 ];
-
-function ValueIcon({ type }: { type: "faith" | "purpose" | "creative" | "love" }) {
-  if (type === "faith") {
-    return <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M20 5h8v12h10v8H28v18h-8V25H10v-8h10z" /></svg>;
-  }
-  if (type === "purpose") {
-    return <svg viewBox="0 0 48 48" aria-hidden="true"><path d="m8 16 10 9 6-17 7 17 9-9-4 23H12z" /><path d="M13 35h23M18 27h12" /></svg>;
-  }
-  if (type === "creative") {
-    return <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4v9M24 35v9M4 24h9M35 24h9M10 10l7 7M31 31l7 7M38 10l-7 7M17 31l-7 7" /><path d="m24 14 3 7 7 3-7 3-3 7-3-7-7-3 7-3z" /></svg>;
-  }
-  return <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41S7 31 7 18c0-7 9-11 17-2 8-9 17-5 17 2 0 13-17 23-17 23z" /></svg>;
-}
 
 export default function Home() {
   return (
-    <main>
-      <section className="hero" id="home">
-        <Header />
-        <div className="hero-inner">
-          <div className="hero-brand">
-            <Image
-              className="hero-logo"
-              src="/logos/enchanted-artistry-transparent.png"
-              alt="Enchanted Artistry CC — Mentorship, Cosmetology, Creativity, Arts"
-              width={1288}
-              height={840}
-              priority
-            />
-            <p className="script hero-tagline">Creating beauty. Inspiring purpose. Cultivating hope.</p>
-            <a className="button" href="#services">Explore our world</a>
+    <main id="top">
+      <Header />
+
+      <section className="hero" id="about">
+        <div className="hero-orbit hero-orbit-left" aria-hidden="true" />
+        <div className="hero-orbit hero-orbit-right" aria-hidden="true" />
+        <div className="hero-copy">
+          <Image className="hero-logo" src="/logos/enchanted-artistry-transparent.png" alt="Enchanted Artistry CC" width={800} height={342} priority />
+          <p className="service-signature">Cosmetology <span>✦</span> Creativity <span>✦</span> Mentorship, guidance &amp; coaching</p>
+          <p className="hero-tagline">Creating beauty. Inspiring purpose. Cultivating hope.</p>
+          <a className="button" href="#services">Explore our world</a>
+        </div>
+
+        <div className="hero-story">
+          <div className="founder-duet" aria-label="Chané and Anthea, Enchanted Artistry co-founders">
+            <figure className="duet-frame duet-chane">
+              <Image className="duet-image duet-image-mirrored" src="/founders/chane-creative.webp" alt="Chané, co-founder of Enchanted Artistry" fill sizes="(max-width: 700px) 50vw, 280px" priority />
+            </figure>
+            <figure className="duet-frame duet-anthea">
+              <Image className="duet-image" src="/founders/anthea-sunset.webp" alt="Anthea Feris, co-founder of Enchanted Artistry" fill sizes="(max-width: 700px) 50vw, 280px" priority />
+            </figure>
           </div>
-          <div className="hero-story" id="about">
+          <div className="hero-story-copy">
             <p className="eyebrow">More than a brand</p>
-            <h1 className="script">It&apos;s a calling.</h1>
-            <div className="heart-rule"><span>♥</span></div>
-            <p>
-              We are dreamers, creators and purpose-driven women who believe in unlocking potential,
-              nurturing confidence and creating spaces where creativity and faith come together.
-            </p>
+            <h1>It&apos;s a calling.</h1>
+            <p>We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.</p>
           </div>
         </div>
       </section>
 
-      <section className="values" aria-label="Our values">
-        <article><ValueIcon type="faith" /><div><h2>Faith based</h2><p>Everything we do is rooted in faith.</p></div></article>
-        <article><ValueIcon type="purpose" /><div><h2>Purpose driven</h2><p>We help people discover their God-given gifts.</p></div></article>
-        <article><ValueIcon type="creative" /><div><h2>Creatively inspired</h2><p>We believe creativity changes lives.</p></div></article>
-        <article><ValueIcon type="love" /><div><h2>Made with love</h2><p>Passion, excellence and care in every detail.</p></div></article>
-      </section>
-
-      <section className="section services-section" id="services">
+      <section className="services section" id="services">
         <div className="section-heading">
           <p className="eyebrow">What we offer</p>
-          <h2><span>✦</span> Our services <span>✦</span></h2>
-          <i aria-hidden="true">♥</i>
+          <h2>Our services</h2>
         </div>
         <div className="service-grid">
-          {services.map((service) => (
-            <article className="service-card" key={service.title}>
-              <Image src={service.image} alt={service.alt} width={720} height={540} />
-              <div className="service-card-body">
+          {services.map((service, index) => (
+            <article className="service-card" key={service.title} style={{ "--card-index": index } as CSSProperties}>
+              <Image src={service.image} alt={service.alt} width={540} height={380} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 45vw, 20vw" />
+              <div className="service-card-copy">
                 <h3>{service.title}</h3>
                 <p>{service.copy}</p>
                 <a href="#contact">Enquire</a>
@@ -104,81 +61,63 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="vision-section" id="vision">
-        <div className="vision-inner">
-          <p className="eyebrow">One umbrella. Many possibilities.</p>
-          <h2>Beauty today. Purpose for tomorrow.</h2>
-          <p>
-            Enchanted is the umbrella brand for purpose-driven ventures that inspire confidence,
-            creativity and meaningful community impact. It begins with quality beauty experiences and
-            grows toward mentorship, creative arts, content creation and youth development.
-          </p>
-          <div className="vision-pillars">
-            <span>Excellence</span><span>Authenticity</span><span>Empowerment</span><span>Heartfelt service</span>
-          </div>
+      <section className="story-section" id="story">
+        <div>
+          <p className="eyebrow">Our story</p>
+          <h2>Beauty today.<br />Purpose for tomorrow.</h2>
         </div>
+        <p>Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.</p>
       </section>
 
-      <section className="section team-section" id="team">
+      <section className="team section" id="founders">
         <div className="section-heading">
-          <p className="eyebrow">The women behind the vision</p>
-          <h2><span>✦</span> Meet the founders <span>✦</span></h2>
-          <i aria-hidden="true">♥</i>
+          <p className="eyebrow">The people behind Enchanted</p>
+          <h2>Meet the founders</h2>
         </div>
         <div className="team-grid">
-          <article className="founder-card founder-chane">
-            <div className="founder-photo">
-              <Image src="/founders/chane-yvette-philander-960.webp" alt="Chané Yvette Philander, co-founder of Enchanted Artistry" width={960} height={1436} loading="eager" />
-              <span>Brings creativity<br />to life ♥</span>
-            </div>
-            <div className="founder-copy">
-              <h3>Chané Yvette<br />Philander</h3>
-              <p className="role">Co-founder</p>
-              <p className="script founder-title">The Creative One.</p>
-              <p>A creative soul with a gift for connection and expression. Chané brings heart, vision and a deep commitment to bringing ideas to life through creativity that inspires and transforms.</p>
-              <p className="script signoff">Creator. Visionary. Dreamer.</p>
+          <article className="founder-card founder-card-chane">
+            <Image src="/founders/chane-creative.webp" alt="Chané, Enchanted Artistry co-founder" width={1200} height={1200} sizes="(max-width: 760px) 92vw, 45vw" />
+            <div>
+              <p className="eyebrow">Co-founder</p>
+              <h3>Chané Yvette Philander</h3>
+              <p className="founder-role">The Creative.</p>
+              <p>Chané shapes the creative spirit of Enchanted, bringing ideas to life through meaningful expression and care.</p>
             </div>
           </article>
-          <article className="founder-card founder-anthea">
-            <div className="founder-photo">
-              <Image src="/founders/anthea-jade-feris-960.webp" alt="Anthea Jade Feris, co-founder of Enchanted Artistry" width={960} height={1441} loading="eager" />
-              <span>Leads with purpose<br />&amp; vision ♥</span>
-            </div>
-            <div className="founder-copy">
-              <h3>Anthea Jade<br />Feris</h3>
-              <p className="role">Co-founder</p>
-              <p className="script founder-title">Heart for people.</p>
-              <p>A visionary leader with a heart for people and purpose. Anthea brings strategy and a passion for empowering others to everything Enchanted Artistry stands for.</p>
-              <p className="script signoff">Leader. Encourager. Visionary.</p>
+          <article className="founder-card founder-card-anthea">
+            <Image src="/founders/anthea-sunset.webp" alt="Anthea Feris, Enchanted Artistry co-founder" width={1200} height={1200} sizes="(max-width: 760px) 92vw, 45vw" />
+            <div>
+              <p className="eyebrow">Co-founder</p>
+              <h3>Anthea Feris</h3>
+              <p className="founder-role">Care with purpose.</p>
+              <p>Anthea brings a thoughtful, people-centred vision to Enchanted, creating room for beauty, guidance and encouragement.</p>
             </div>
           </article>
         </div>
       </section>
 
-      <section className="newsletter" id="contact">
-        <div className="newsletter-icon" aria-hidden="true">✉</div>
+      <section className="contact-section" id="contact">
         <div>
           <p className="eyebrow">Join the Enchanted family</p>
-          <p>Connect with us for beauty enquiries, creative collaborations and future updates.</p>
+          <h2>Let&apos;s create something meaningful.</h2>
+          <p>For beauty enquiries, guidance and creative collaborations, get in touch with the Enchanted Artistry team.</p>
         </div>
-        <a className="button" href="mailto:heyitschane@outlook.com?subject=Enchanted%20Artistry%20enquiry">Send an enquiry</a>
+        <a className="button button-light" href="mailto:heyitschane@outlook.com?subject=Enchanted%20Artistry%20enquiry">Send an enquiry</a>
       </section>
 
       <footer>
-        <div className="footer-main">
-          <Image src="/logos/enchanted-artistry-transparent.png" alt="Enchanted Artistry CC" width={1288} height={840} />
-          <div>
-            <p className="footer-heading">Quick links</p>
-            <div className="footer-links"><a href="#about">About us</a><a href="#services">Services</a><a href="#vision">Our vision</a><a href="#team">Founders</a></div>
-          </div>
-          <div>
-            <p className="footer-heading">Connect with us</p>
-            <a href="mailto:heyitschane@outlook.com">heyitschane@outlook.com</a>
-            <p>Windhoek, Namibia</p>
-          </div>
-          <blockquote><span className="script">Let your light shine<br />before others.</span><cite>Matthew 5:16</cite></blockquote>
+        <Image src="/logos/enchanted-artistry-transparent.png" alt="Enchanted Artistry CC" width={370} height={158} />
+        <div>
+          <p className="eyebrow">Quick links</p>
+          <a href="#about">About us</a><a href="#services">Services</a><a href="#story">Our story</a><a href="#founders">Founders</a>
         </div>
-        <div className="footer-bottom"><span>© 2026 Enchanted Artistry CC</span><span>Demo landing page — enquiries by email</span></div>
+        <div>
+          <p className="eyebrow">Connect with us</p>
+          <a href="mailto:heyitschane@outlook.com">heyitschane@outlook.com</a>
+          <p>Windhoek, Namibia</p>
+        </div>
+        <div className="footer-verse">Let your light shine<br /><span>before others.</span></div>
+        <p className="footer-bottom">© 2026 Enchanted Artistry CC <a href="https://studio.tangison.com">Made by Tangison Studio</a></p>
       </footer>
     </main>
   );
