@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FounderPortrait from "../components/FounderPortrait";
 import Header from "../components/Header";
 import MotionController from "../components/MotionController";
 
@@ -69,9 +70,14 @@ export default function Home() {
         </div>
         <div className="team-grid">
           <article className="founder-card" data-reveal>
-            <div className="founder-image founder-image-chane">
-              <Image src="/founders/chane-creative.webp" alt="Chané Yvette Philander, Enchanted Artistry co-founder" fill sizes="(max-width: 760px) 92vw, 26vw" />
-            </div>
+            <FounderPortrait
+              name="Chané Yvette Philander"
+              variant="chane"
+              primarySrc="/founders/chane-yvette-philander-960.webp"
+              primaryAlt="Chané Yvette Philander, Enchanted Artistry co-founder"
+              alternateSrc="/founders/chane-creative.webp"
+              alternateAlt="Chané Yvette Philander in a black-and-white creative portrait"
+            />
             <div className="founder-copy">
               <p className="eyebrow">Co-founder</p>
               <h3>Chané Yvette<br />Philander</h3>
@@ -81,9 +87,14 @@ export default function Home() {
           </article>
 
           <article className="founder-card" data-reveal>
-            <div className="founder-image founder-image-anthea">
-              <Image src="/founders/anthea-sunset.webp" alt="Anthea Feris, Enchanted Artistry co-founder" fill sizes="(max-width: 760px) 92vw, 26vw" />
-            </div>
+            <FounderPortrait
+              name="Anthea Feris"
+              variant="anthea"
+              primarySrc="/founders/anthea-jade-feris-960.webp"
+              primaryAlt="Anthea Feris, Enchanted Artistry co-founder"
+              alternateSrc="/founders/anthea-sunset.webp"
+              alternateAlt="Anthea Feris outdoors at sunset"
+            />
             <div className="founder-copy">
               <p className="eyebrow">Co-founder</p>
               <h3>Anthea Feris</h3>

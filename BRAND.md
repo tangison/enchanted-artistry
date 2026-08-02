@@ -52,7 +52,7 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 
 ## Image direction
 
-- Founder portraits are real supplied images and take priority.
+- Founder portraits are real supplied images and take priority. The supplied studio portraits are primary, with a touch-activated alternate portrait for each founder.
 - Service images are generated still-life or anonymous illustrative category images.
 - No generated person is presented as staff, founder, client or participant.
 - Avoid invented signage, text, credentials and programme evidence.
@@ -69,4 +69,4 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 - Purpose: establish a calm entrance rhythm and make navigation state clear.
 - CSS and native Intersection Observer are the motion system. Hero and section content rise once, images reveal within their fixed frames, mobile navigation slides in from its right-edge trigger, and the sticky header moves up only when the visitor scrolls down.
 - Timing uses `--entry` and `--exit` cubic-bezier tokens. Small interactions run at 180 to 240 ms; the hero entrance is under 700 ms.
-- Only opacity and transform animate. Reduced-motion users receive immediate state changes.
+- Only opacity and transform animate. Reduced-motion users receive immediate state changes, including founder portrait swaps.

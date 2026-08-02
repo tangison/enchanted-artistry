@@ -10,8 +10,10 @@
 | `assets/founders/anthea-jade-feris-original.jpg` | Client supplied image 1 | Unmodified archive | Founder authority | Anthea only |
 | `assets/founders/chane-yvette-philander-original.jpg` | Client supplied image 2 | Unmodified archive | Founder authority | Chané only |
 | `assets/founders/*-480/640/960.webp` | Founder originals | Resize/compression only | Responsive delivery | No face retouching |
-| `public/founders/chane-creative.webp` | Client supplied image, 2026-08-02 | Resize/compression only | Current Chané portrait, hero and founder profile | Preserve the black-and-white composition, no retouching |
-| `public/founders/anthea-sunset.webp` | Client supplied image, 2026-08-02 | Resize/compression only | Current Anthea portrait, hero and founder profile | Preserve original photographer watermark and image content |
+| `public/founders/chane-yvette-philander-960.webp` | Client supplied studio portrait | Resize/compression only | Primary left founder portrait for Chané | Preserve composition, no retouching |
+| `public/founders/anthea-jade-feris-960.webp` | Client supplied studio portrait | Resize/compression only | Primary right founder portrait for Anthea | Preserve composition, no retouching |
+| `public/founders/chane-creative.webp` | Client supplied image, 2026-08-02 | Resize/compression only | Chané alternate portrait shown when her primary portrait is activated | Preserve the black-and-white composition, no retouching |
+| `public/founders/anthea-sunset.webp` | Client supplied image, 2026-08-02 | Resize/compression only | Anthea alternate portrait shown when her primary portrait is activated | Preserve original photographer watermark and image content |
 | `app/icon.png` | Approved transparent logo PNG | Centred on brand paper background, no alteration to mark | Browser favicon and web app icon | Do not treat as a new logo variant |
 | `reference/client-approved-layout/landing-page-reference.jpg` | Client supplied | Unmodified | Layout direction | Reference only |
 
