@@ -43,7 +43,7 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 
 ## Composition
 
-- Full floral hero field with the approved logo lockup on the left and the calling statement on the right, matching the supplied layout reference.
+- Full floral hero field with the calling statement on the left and the two-founder composition on the right, matching the updated client reference.
 - Fine uppercase labels and high-contrast serif section titles.
 - Five service cards and two substantial founder cards.
 - No faith-based values strip or four-pill vision block.
@@ -52,7 +52,9 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 
 ## Image direction
 
-- Founder portraits are real supplied images and take priority. The supplied studio portraits are primary, with a touch-activated alternate portrait for each founder.
+- The founder cards use real supplied images: Chané's black-and-white creative portrait on the left and Anthea's outdoor portrait on the right.
+- The hero grouping is a generated presentation composite derived only from the supplied studio portraits, with Chané retained on the left and Anthea on the right.
+- The studio portraits remain touch-activated alternates behind the featured founder-card photographs.
 - Service images are generated still-life or anonymous illustrative category images.
 - No generated person is presented as staff, founder, client or participant.
 - Avoid invented signage, text, credentials and programme evidence.

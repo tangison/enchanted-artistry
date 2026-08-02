@@ -32,7 +32,7 @@ export default function FounderPortrait({
     >
       <Image className="founder-portrait-primary" src={primarySrc} alt={primaryAlt} fill sizes="(max-width: 760px) 92vw, 26vw" />
       <Image className="founder-portrait-alternate" src={alternateSrc} alt={alternateAlt} fill sizes="(max-width: 760px) 92vw, 26vw" />
-      <span className="founder-portrait-label" aria-hidden="true">{showAlternate ? "View primary portrait" : "View another portrait"}</span>
+      <span className="founder-portrait-label" aria-hidden="true">{showAlternate ? "View featured portrait" : "View studio portrait"}</span>
     </button>
   );
 }

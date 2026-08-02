@@ -18,18 +18,25 @@ export default function Home() {
       <Header />
 
       <section className="hero" id="about">
-        <div className="hero-copy hero-reveal">
-          <Image className="hero-logo" src="/logos/enchanted-artistry-transparent.png" alt="Enchanted Artistry CC" width={800} height={342} priority />
-          <p className="service-signature">Cosmetology <span>✦</span> Creativity <span>✦</span> Mentorship, guidance &amp; coaching</p>
-          <p className="hero-tagline">Creating beauty. Inspiring purpose. Cultivating hope.</p>
+        <div className="hero-message hero-reveal">
+          <p className="eyebrow">About us</p>
+          <h1><span>More than a brand,</span> it&apos;s a calling.</h1>
+          <div className="heart-rule" aria-hidden="true"><span>♥</span></div>
+          <p>We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.</p>
           <a className="button" href="#services">Explore our world</a>
         </div>
 
-        <div className="hero-message hero-reveal hero-reveal-late">
-          <p className="eyebrow">More than a brand</p>
-          <h1>It&apos;s a calling.</h1>
-          <div className="heart-rule" aria-hidden="true"><span>♥</span></div>
-          <p>We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.</p>
+        <div className="hero-founders hero-reveal hero-reveal-late">
+          <span className="hero-orbit" aria-hidden="true" />
+          <Image
+            className="hero-founders-image"
+            src="/images/founders-hero-cutout.webp"
+            alt="Chané Yvette Philander and Anthea Feris, co-founders of Enchanted Artistry"
+            width={770}
+            height={954}
+            sizes="(max-width: 860px) 92vw, 52vw"
+            priority
+          />
         </div>
       </section>
 
@@ -73,10 +80,10 @@ export default function Home() {
             <FounderPortrait
               name="Chané Yvette Philander"
               variant="chane"
-              primarySrc="/founders/chane-yvette-philander-960.webp"
-              primaryAlt="Chané Yvette Philander, Enchanted Artistry co-founder"
-              alternateSrc="/founders/chane-creative.webp"
-              alternateAlt="Chané Yvette Philander in a black-and-white creative portrait"
+              primarySrc="/founders/chane-creative.webp"
+              primaryAlt="Chané Yvette Philander in a black-and-white creative portrait"
+              alternateSrc="/founders/chane-yvette-philander-960.webp"
+              alternateAlt="Chané Yvette Philander, Enchanted Artistry co-founder"
             />
             <div className="founder-copy">
               <p className="eyebrow">Co-founder</p>
@@ -90,10 +97,10 @@ export default function Home() {
             <FounderPortrait
               name="Anthea Feris"
               variant="anthea"
-              primarySrc="/founders/anthea-jade-feris-960.webp"
-              primaryAlt="Anthea Feris, Enchanted Artistry co-founder"
-              alternateSrc="/founders/anthea-sunset.webp"
-              alternateAlt="Anthea Feris outdoors at sunset"
+              primarySrc="/founders/anthea-sunset.webp"
+              primaryAlt="Anthea Feris outdoors at sunset"
+              alternateSrc="/founders/anthea-jade-feris-960.webp"
+              alternateAlt="Anthea Feris, Enchanted Artistry co-founder"
             />
             <div className="founder-copy">
               <p className="eyebrow">Co-founder</p>

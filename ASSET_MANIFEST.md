@@ -29,6 +29,8 @@ These are category illustrations, not documentary photographs.
 | `service-drama-original.png` / WebP | Generated theatre-mask still life | Drama card | Illustrative only |
 | `service-mentorship-original.png` / WebP | Generated notebook and pen still life | Guidance card | No programme evidence |
 | `service-content-original.png` / WebP | Generated camera and microphone still life | Content card | No client-work claim |
+| `assets/images-production/founders-hero-chroma-v1.png` | Image-model composite using the two client-supplied studio portraits as identity references | Editable chroma-key source for the hero grouping | Generated presentation artwork, never documentary evidence |
+| `assets/images-production/founders-hero-transparent-v1.png` / `public/images/founders-hero-cutout.webp` | Chroma removal, full-size alpha review, tight crop and WebP optimisation | Transparent master and responsive hero delivery asset | Keep Chané on the left and Anthea on the right; do not present as a single documentary photograph |
 
 Full PNG masters live in `assets/images-production/`; compressed delivery files live in `public/images/`.
 
@@ -47,4 +49,4 @@ Full PNG masters live in `assets/images-production/`; compressed delivery files 
 - `docs/qa/mobile.png` — 390 px full-page render.
 - `docs/website-imagery-contact-sheet.jpg` — production image overview.
 
-No SVG logo is supplied or permitted. The new real founder imagery takes priority over the earlier supplied portraits where the current page presents each founder.
+No SVG logo is supplied or permitted. The founder cards use the real black-and-white Chané portrait and Anthea outdoor portrait. The hero grouping is a generated composite derived from the supplied studio portraits and is documented as such.

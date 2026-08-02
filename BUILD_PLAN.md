@@ -13,7 +13,7 @@ The page follows the supplied client layout direction while retaining its own re
 3. Keep five service categories, but use **Guidance** for mothers through pregnancy, post-partum and breastfeeding.
 4. Content creation must not claim photography. It covers creative content, design and meaningful storytelling.
 5. Use the new black-and-white Chané photograph and the new Anthea outdoor photograph.
-6. Keep the reference composition: logo and brand line on the left of the floral hero, calling statement on the right, and founders in the dedicated two-panel section.
+6. Follow the updated hero reference: calling statement on the left and a two-founder presentation composite on the right. Keep the real alternate portraits in the dedicated founder section below.
 7. Use a staggered two-stroke mobile navigation control, not a generic three-stroke hamburger.
 8. Add restrained reveal motion with a reduced-motion fallback.
 9. Add a favicon, web manifest and public indexing settings.

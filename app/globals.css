@@ -44,15 +44,16 @@ h1, h2, h3 { margin: 0; font-family: "Bodoni Moda", serif; font-weight: 400; lin
 .nav-cta:hover { background: var(--rose-deep); }
 .menu-button, .nav-backdrop { display: none; }
 
-.hero { position: relative; isolation: isolate; display: grid; min-height: clamp(570px, 67vw, 720px); grid-template-columns: 1.15fr .85fr; align-items: center; gap: clamp(2rem, 7vw, 7rem); overflow: hidden; padding: clamp(4rem, 7vw, 6.5rem) clamp(1.25rem, 8vw, 9rem); background: linear-gradient(90deg, rgba(255, 250, 248, .5), rgba(255, 250, 248, .28)), url("/images/hero-floral.webp") center / cover no-repeat; }
-.hero-copy { max-width: 690px; text-align: center; }
-.hero-logo { display: block; width: min(100%, 610px); height: auto; margin-inline: auto; filter: drop-shadow(0 8px 20px rgba(94, 68, 82, .04)); }
-.service-signature { max-width: 610px; margin: .2rem auto .9rem; color: #575058; font-size: clamp(.58rem, .85vw, .73rem); letter-spacing: .15em; line-height: 1.65; text-transform: uppercase; }
-.service-signature span { padding: 0 .28rem; color: var(--gold); }
-.hero-tagline, .founder-role { margin: 1rem 0 1.65rem; color: var(--rose-deep); font-family: Allura, cursive; font-size: clamp(1.8rem, 3vw, 2.5rem); line-height: 1; }
-.hero-message { max-width: 430px; padding: clamp(1.75rem, 3.5vw, 3.2rem); text-align: center; background: rgba(255, 250, 248, .74); box-shadow: 0 16px 55px rgba(92, 67, 79, .06); backdrop-filter: blur(4px); }
-.hero-message h1 { font-family: Allura, cursive; font-size: clamp(3.35rem, 5.5vw, 5rem); letter-spacing: 0; }
-.hero-message > p:last-child { max-width: 34rem; margin: 1.25rem auto 0; font-size: .9rem; }
+.hero { position: relative; isolation: isolate; display: grid; min-height: clamp(640px, 68vw, 790px); grid-template-columns: minmax(320px, .82fr) minmax(420px, 1.18fr); align-items: stretch; gap: clamp(1rem, 4vw, 4rem); overflow: hidden; padding: clamp(3rem, 5vw, 5rem) clamp(1.25rem, 7vw, 7.5rem) 0; background: linear-gradient(90deg, rgba(255, 250, 248, .68), rgba(255, 250, 248, .18)), url("/images/hero-floral.webp") center / cover no-repeat; }
+.hero-message { position: relative; z-index: 2; align-self: center; max-width: 520px; padding: clamp(1.75rem, 3.2vw, 3rem); text-align: center; background: rgba(255, 250, 248, .76); box-shadow: 0 16px 55px rgba(92, 67, 79, .06); backdrop-filter: blur(4px); }
+.hero-message h1 { font-family: Allura, cursive; font-size: clamp(3.15rem, 5vw, 4.8rem); letter-spacing: 0; }
+.hero-message h1 span { display: block; margin-bottom: .38rem; font-family: "Bodoni Moda", serif; font-size: .5em; letter-spacing: .025em; }
+.hero-message > p:last-of-type { max-width: 34rem; margin: 1.25rem auto 1.6rem; font-size: .9rem; }
+.hero-founders { position: relative; z-index: 1; display: flex; min-width: 0; align-items: flex-end; justify-content: center; align-self: end; height: 100%; }
+.hero-founders::before { position: absolute; right: 3%; bottom: 2%; width: min(39vw, 560px); aspect-ratio: 1; border: 1px solid rgba(198, 150, 103, .52); border-radius: 50%; content: ""; }
+.hero-orbit { position: absolute; right: 5%; bottom: 7%; width: min(36vw, 510px); aspect-ratio: 1; border: 1px solid rgba(188, 115, 120, .2); border-radius: 50%; }
+.hero-founders-image { position: relative; z-index: 1; display: block; width: min(100%, 770px); height: auto; max-height: 720px; object-fit: contain; object-position: center bottom; filter: drop-shadow(0 22px 24px rgba(88, 63, 75, .1)); }
+.founder-role { margin: 1rem 0 1.65rem; color: var(--rose-deep); font-family: Allura, cursive; font-size: clamp(1.8rem, 3vw, 2.5rem); line-height: 1; }
 .heart-rule { display: flex; align-items: center; gap: .7rem; width: min(180px, 65%); margin: .7rem auto; color: var(--rose); }
 .heart-rule::before, .heart-rule::after { width: 100%; height: 1px; background: var(--rose-pale); content: ""; }
 .heart-rule span { font-size: .72rem; }
@@ -147,10 +148,12 @@ footer p { margin: .35rem 0; font-size: .84rem; }
   .nav-links > a:not(.nav-cta)::after { bottom: .45rem; }
   .nav-cta { width: fit-content !important; min-height: 46px; margin-top: 1.2rem; padding: .75rem 1.3rem !important; font-family: Manrope, sans-serif !important; font-size: .66rem !important; font-weight: 600 !important; letter-spacing: .13em !important; text-transform: uppercase !important; }
   .nav-backdrop { position: fixed; z-index: 99; inset: 0; display: block; border: 0; background: rgba(45, 35, 42, .22); animation: menu-scrim 250ms var(--entry) both; }
-  .hero { min-height: auto; grid-template-columns: 1fr; gap: 2.2rem; padding: 4.4rem 1.1rem 4.8rem; background-position: center; }
-  .hero-copy { width: min(100%, 620px); margin-inline: auto; }
-  .hero-logo { width: min(100%, 530px); }
-  .hero-message { width: min(100%, 500px); margin-inline: auto; }
+  .hero { min-height: auto; grid-template-columns: 1fr; gap: 1rem; padding: 3.6rem 1rem 0; background-position: center; }
+  .hero-message { width: min(100%, 540px); margin-inline: auto; }
+  .hero-founders { width: min(100%, 650px); min-height: 420px; margin-inline: auto; }
+  .hero-founders::before { right: 8%; bottom: 4%; width: min(72vw, 470px); }
+  .hero-orbit { right: 11%; bottom: 8%; width: min(66vw, 430px); }
+  .hero-founders-image { width: min(100%, 610px); max-height: 570px; }
   .story-strip { grid-template-columns: 1fr; gap: 1rem; text-align: center; }
   .story-strip h2, .story-strip > p { margin-inline: auto; }
   .contact-strip { grid-template-columns: auto 1fr; }
@@ -159,10 +162,11 @@ footer p { margin: .35rem 0; font-size: .84rem; }
 }
 
 @media (max-width: 680px) {
-  .hero { padding-top: 3.6rem; }
+  .hero { padding-top: 2.7rem; }
   .hero-message { padding: 1.65rem 1.2rem; }
-  .hero-message h1 { font-size: 3.45rem; }
-  .service-signature { max-width: 340px; font-size: .58rem; }
+  .hero-message h1 { font-size: 3.35rem; }
+  .hero-founders { min-height: 350px; }
+  .hero-founders-image { width: min(115%, 560px); max-width: none; }
   .service-grid { max-width: 420px; grid-template-columns: 1fr; }
   .service-image-wrap { aspect-ratio: 1.32; }
   .service-card-copy { min-height: 0; padding: 1.45rem 1.1rem 1.35rem; }
