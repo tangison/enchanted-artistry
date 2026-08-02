@@ -123,8 +123,8 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand">
-          <Image src="/logos/enchanted-artistry-transparent.png" alt="Enchanted Artistry CC" width={370} height={158} />
-          <p>Cosmetology · Creativity · Guidance</p>
+          <Image src="/logos/enchanted-artistry-corrected.png" alt="Enchanted Artistry CC" width={370} height={241} />
+          <p>Cosmetology · Arts · Mentorship and Guidance</p>
         </div>
         <div>
           <p className="eyebrow">Quick links</p>
@@ -133,6 +133,8 @@ export default function Home() {
         <div>
           <p className="eyebrow">Connect with us</p>
           <a href="mailto:heyitschane@outlook.com">heyitschane@outlook.com</a>
+          <a href="https://wa.me/264816700844" target="_blank" rel="noreferrer">WhatsApp Anthea: +264 81 670 0844</a>
+          <a href="https://wa.me/264816034637" target="_blank" rel="noreferrer">WhatsApp Chané: +264 81 603 4637</a>
           <p>Windhoek, Namibia</p>
         </div>
         <div className="footer-verse">Let your light shine<br /><span>before others.</span></div>

@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Enchanted Artistry CC",
     short_name: "Enchanted",
-    description: "Cosmetology, creativity and caring guidance.",
+    description: "Cosmetology, arts, mentorship and guidance.",
     display: "standalone",
     background_color: "#fff9f7",
     theme_color: "#bd7478",

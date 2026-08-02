@@ -19,14 +19,14 @@ Production refinement. The public repository is connected to Vercel, so a verifi
 - One responsive Next.js landing page at `/`.
 - Visual direction based on the client-approved screenshot in `reference/client-approved-layout/`.
 - Authentic portraits of founders Anthea Jade Feris and Chané Yvette Philander.
-- Preserved client logo, five service images and the current supplied founder photos.
-- Desktop and mobile navigation, anchor links and an email enquiry action.
+- Preserved client logo, one client-authorised descriptor correction, five service images and the current supplied founder photos.
+- Desktop and mobile navigation, anchor links, an email enquiry action and two labelled WhatsApp actions.
 - Public indexing, favicon and web manifest.
 
 ## Identity and asset rules
 
 - The supplied raster logo is authoritative. Use only the PNG derivatives in `public/logos/` or `assets/logos/`.
-- Never trace, redraw, regenerate, retype, simplify, recolour or reinterpret the logo.
+- Never trace, redraw, regenerate, simplify, recolour or reinterpret the logo. The approved website derivative changes only the descriptor line to `COSMETOLOGY · ARTS · MENTORSHIP AND GUIDANCE`.
 - Do not create an SVG logo. Prior vector attempts are rejected and absent.
 - Founder portraits are authentic client-supplied photographs. Do not retouch faces or present generated people as founders.
 - Generated supporting images may illustrate service categories only. They are not documentary evidence.
@@ -34,14 +34,16 @@ Production refinement. The public repository is connected to Vercel, so a verifi
 
 ## Factual restrictions
 
-- Do not invent prices, opening hours, programmes, testimonials, awards, partners, phone numbers, social handles or impact figures.
+- Do not invent prices, opening hours, programmes, testimonials, awards, partners, additional phone numbers, social handles or impact figures.
 - Future youth mentorship and media initiatives must remain future-facing.
-- `heyitschane@outlook.com` is user supplied as the business email and is used for the demo enquiry action; reconfirm it before production launch.
+- `heyitschane@outlook.com` is user supplied as the business email.
+- `+264 81 670 0844` is the approved public WhatsApp number for Anthea Feris.
+- `+264 81 603 4637` is the approved public WhatsApp number for Chané Philander.
 - No booking, shop, newsletter subscription or social integration is implemented.
 
 ## Interaction rules
 
-- Primary conversion: email enquiry.
+- Primary conversion: email or direct WhatsApp enquiry.
 - All navigation items point to real sections on this page.
 - The mobile menu must remain keyboard accessible and expose `aria-expanded`.
 - Respect `prefers-reduced-motion`.

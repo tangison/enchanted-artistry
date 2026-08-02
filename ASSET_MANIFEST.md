@@ -7,6 +7,7 @@
 | `reference/enchanted-artistry-approved-raster.jpg` | Client supplied | Unmodified | Identity authority | Never overwrite |
 | `assets/logos/enchanted-artistry-original.jpg` | Client supplied | Unmodified | Logo master | Never recreate |
 | `assets/logos/enchanted-artistry-transparent.png` | Client master | Background removed; artwork retained | Website logo | Do not trace/retype/recolour |
+| `assets/logos/enchanted-artistry-corrected.png` / `public/logos/enchanted-artistry-corrected.png` | Client master plus user-authorised deterministic descriptor correction | Original descriptor removed from the transparent derivative and replaced with `COSMETOLOGY · ARTS · MENTORSHIP AND GUIDANCE`; wordmark and geometry unchanged | Current website logo | Preserve the untouched original master; do not treat this as a new identity |
 | `assets/founders/anthea-jade-feris-original.jpg` | Client supplied image 1 | Unmodified archive | Founder authority | Anthea only |
 | `assets/founders/chane-yvette-philander-original.jpg` | Client supplied image 2 | Unmodified archive | Founder authority | Chané only |
 | `assets/founders/*-480/640/960.webp` | Founder originals | Resize/compression only | Responsive delivery | No face retouching |

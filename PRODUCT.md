@@ -20,7 +20,7 @@ Enchanted Artistry is a purpose-driven umbrella brand connecting beauty, creativ
 
 ## Objective and conversion
 
-Help a first-time visitor understand the brand in under 30 seconds and invite a direct email enquiry.
+Help a first-time visitor understand the brand in under 30 seconds and invite a direct email or WhatsApp enquiry.
 
 ## Confirmed facts
 
@@ -44,6 +44,6 @@ Help a first-time visitor understand the brand in under 30 seconds and invite a 
 ## Success criteria
 
 - Visually recognisable against the approved reference without copying unusable screenshot pixels into production.
-- Authentic logo and founder portraits remain intact.
+- Authentic founder portraits remain intact. The original logo remains archived and the website uses the client-authorised descriptor correction.
 - Clear service and umbrella-brand story on desktop and mobile.
 - Responsive, keyboard accessible, indexable and production-build clean.

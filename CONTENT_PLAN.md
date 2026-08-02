@@ -12,7 +12,7 @@
 
 ### Hero
 
-- Brand line: `Cosmetology ✦ Creativity ✦ Mentorship, guidance & coaching`
+- Brand line: `Cosmetology ✦ Arts ✦ Mentorship and Guidance`
 - Tagline: `Creating beauty. Inspiring purpose. Cultivating hope.`
 - Statement: `More than a brand. It's a calling.`
 - Body: `We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.`
@@ -37,7 +37,9 @@
 ### Contact
 
 - Email: `heyitschane@outlook.com`
-- No public phone number is published until the client confirms both intended numbers.
+- WhatsApp, Anthea: `+264 81 670 0844`
+- WhatsApp, Chané: `+264 81 603 4637`
+- No second public email was supplied. Do not invent one.
 
 ## Fact ledger
 
@@ -48,4 +50,5 @@
 | New guidance and content-creation corrections | Client feedback supplied by user | Must replace prior wording |
 | Brand positioning and story | User supplied and editorially condensed | May publish without claims of outcomes or availability |
 | Email address | User supplied | Current enquiry route |
-| Phone numbers, social accounts, domain, pricing and booking policy | Missing | Do not invent or publish |
+| Anthea and Chané WhatsApp numbers | User supplied and explicitly approved for publication | Publish as labelled `wa.me` actions |
+| Additional email addresses, social accounts, domain, pricing and booking policy | Missing | Do not invent or publish |

@@ -6,6 +6,8 @@ The project is a public, single-page Enchanted Artistry CC website on the existi
 
 The page follows the supplied client layout direction while retaining its own responsive composition. It must preserve the approved raster logo and use the real supplied founder photographs.
 
+The client-authorised logo correction changes only the small descriptor line to `COSMETOLOGY · ARTS · MENTORSHIP AND GUIDANCE`. The original supplied logo remains archived and unchanged.
+
 ## Client-approved corrections
 
 1. Remove the faith-based value strip.

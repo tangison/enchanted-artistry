@@ -3,7 +3,7 @@ import "@fontsource/allura";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Enchanted Artistry CC | Cosmetology, Creativity & Guidance",
+  title: "Enchanted Artistry CC | Cosmetology, Arts, Mentorship & Guidance",
   description:
     "Enchanted Artistry brings cosmetology, creativity and caring guidance together for women, including expectant and new mothers.",
   robots: { index: true, follow: true },

@@ -30,9 +30,9 @@ npm run build
 
 ## Important decisions
 
-- Official logo remains raster-based and unchanged; no SVG reconstruction is included.
+- Official logo remains raster-based; the original master is untouched and the website derivative changes only the client-authorised descriptor line. No SVG reconstruction is included.
 - Anthea Jade Feris and Chané Yvette Philander use authentic supplied portraits.
 - Generated imagery is limited to the floral background and illustrative service categories.
-- Screenshot-only phone, domain and social links are excluded because they are unverified.
+- The two user-supplied WhatsApp contacts and one business email are included. Unverified domain and social links remain excluded.
 - The demo is noindexed and has no production booking, shop, form, analytics or deployment.
 - GitHub publishing is the next step after repository access and visibility are confirmed.

@@ -2,7 +2,7 @@
 
 ## Approved visual story
 
-The client-approved screenshot combines a pale blush field, soft floral corners, rose calls to action, lavender depth, fine gold accents, refined serif typography and expressive script. The local build translates that direction into a responsive, accessible system while keeping the official logo untouched.
+The client-approved screenshot combines a pale blush field, soft floral corners, rose calls to action, lavender depth, fine gold accents, refined serif typography and expressive script. The local build translates that direction into a responsive, accessible system while preserving the official wordmark geometry.
 
 ## Personality
 
@@ -17,10 +17,11 @@ The client-approved screenshot combines a pale blush field, soft floral corners,
 | --- | --- |
 | `assets/logos/enchanted-artistry-original.jpg` | Untouched client-supplied master |
 | `assets/logos/enchanted-artistry-transparent.png` | Default website logo |
+| `assets/logos/enchanted-artistry-corrected.png` | Client-authorised descriptor correction used by the website |
 | `assets/logos/enchanted-artistry-white.png` | Exact artwork on white |
 | `assets/logos/enchanted-artistry-black.png` | Exact artwork on near-black |
 
-Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo into an SVG. Preserve `CC`, the descriptor line, open rings, lettering and original proportions.
+Never stretch, crop, recolour, redraw, trace, bevel or convert the logo into an SVG. Preserve `CC`, the open rings, lettering and original proportions. The website correction changes only the descriptor to `COSMETOLOGY · ARTS · MENTORSHIP AND GUIDANCE`, as explicitly requested by the client. The original master remains untouched.
 
 ## Colour palette
 

@@ -49,10 +49,10 @@ export default function Header() {
       <header className={`site-header${hidden && !open ? " is-hidden" : ""}`}>
         <a className="brand-mark" href="#top" aria-label="Enchanted Artistry home">
           <Image
-            src="/logos/enchanted-artistry-transparent.png"
+            src="/logos/enchanted-artistry-corrected.png"
             alt="Enchanted Artistry CC"
             width={330}
-            height={141}
+            height={215}
             priority
           />
         </a>
