@@ -43,7 +43,7 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 
 ## Composition
 
-- Blush-and-lavender hero with deliberate open space, an overlapping face-to-face founder composition and subtle orbit lines.
+- Full floral hero field with the approved logo lockup on the left and the calling statement on the right, matching the supplied layout reference.
 - Fine uppercase labels and high-contrast serif section titles.
 - Five service cards and two substantial founder cards.
 - No faith-based values strip or four-pill vision block.
@@ -67,6 +67,6 @@ Never stretch, crop, recolour, retype, redraw, trace, bevel or convert the logo 
 ## Motion
 
 - Purpose: establish a calm entrance rhythm and make navigation state clear.
-- CSS is the only motion engine. Hero and service content rise once, mobile navigation slides in from its right-edge trigger, and the sticky header moves up only when the visitor scrolls down.
+- CSS and native Intersection Observer are the motion system. Hero and section content rise once, images reveal within their fixed frames, mobile navigation slides in from its right-edge trigger, and the sticky header moves up only when the visitor scrolls down.
 - Timing uses `--entry` and `--exit` cubic-bezier tokens. Small interactions run at 180 to 240 ms; the hero entrance is under 700 ms.
 - Only opacity and transform animate. Reduced-motion users receive immediate state changes.

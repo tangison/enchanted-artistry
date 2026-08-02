@@ -27,6 +27,23 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.classList.toggle("menu-open", open);
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    const onResize = () => {
+      if (window.innerWidth > 860) setOpen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    window.addEventListener("resize", onResize);
+    return () => {
+      document.body.classList.remove("menu-open");
+      window.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("resize", onResize);
+    };
+  }, [open]);
+
   return (
     <>
       <header className={`site-header${hidden && !open ? " is-hidden" : ""}`}>
@@ -48,8 +65,8 @@ export default function Header() {
           aria-label={open ? "Close navigation" : "Open navigation"}
           onClick={() => setOpen((value) => !value)}
         >
-          <span />
-          <span />
+          <span className="menu-stroke menu-stroke-top" />
+          <span className="menu-stroke menu-stroke-bottom" />
         </button>
 
         <nav id="primary-navigation" className={`nav-links${open ? " is-open" : ""}`} aria-label="Primary navigation">
