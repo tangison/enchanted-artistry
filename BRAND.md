@@ -44,7 +44,7 @@ Never stretch, crop, recolour, redraw, trace, bevel or convert the logo into an 
 
 ## Composition
 
-- Full floral hero field with the calling statement on the left and the two-founder composition on the right, matching the updated client reference.
+- Full floral hero field with the large corrected brand mark and approved introduction leading the left column, followed by the separate calling panel. The two-founder composition sits on the right on desktop and follows both panels on mobile.
 - Fine uppercase labels and high-contrast serif section titles.
 - Five service cards and two substantial founder cards.
 - No faith-based values strip or four-pill vision block.

@@ -47,6 +47,8 @@ Production refinement. The public repository is connected to Vercel, so a verifi
 - All navigation items point to real sections on this page.
 - The mobile menu must remain keyboard accessible and expose `aria-expanded`.
 - Respect `prefers-reduced-motion`.
+- Mobile hero order is fixed: full brand mark and approved introduction, calling panel, then the two-founder composition.
+- The closing verse must remain fully visible above the footer copyright bar at narrow widths.
 
 ## Run and verify
 

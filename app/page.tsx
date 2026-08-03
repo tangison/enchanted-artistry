@@ -18,12 +18,27 @@ export default function Home() {
       <Header />
 
       <section className="hero" id="about">
-        <div className="hero-message hero-reveal">
-          <p className="eyebrow">About us</p>
-          <h1><span>More than a brand,</span> it&apos;s a calling.</h1>
-          <div className="heart-rule" aria-hidden="true"><span>♥</span></div>
-          <p>We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.</p>
-          <a className="button" href="#services">Explore our world</a>
+        <div className="hero-copy-stack">
+          <div className="hero-brand hero-reveal">
+            <Image
+              className="hero-brand-logo"
+              src="/logos/enchanted-artistry-corrected.png"
+              alt="Enchanted Artistry CC. Cosmetology, Arts, Mentorship and Guidance."
+              width={740}
+              height={482}
+              sizes="(max-width: 860px) 92vw, 44vw"
+              priority
+            />
+            <p className="hero-tagline">Creating beauty. Inspiring purpose.<br />Cultivating hope.</p>
+            <p className="hero-intro">Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.</p>
+            <a className="button" href="#services">Explore our world</a>
+          </div>
+
+          <div className="hero-message hero-reveal hero-reveal-mid">
+            <p className="eyebrow">More than a brand</p>
+            <h1>It&apos;s a calling.</h1>
+            <div className="heart-rule" aria-hidden="true"><span>♥</span></div>
+          </div>
         </div>
 
         <div className="hero-founders hero-reveal hero-reveal-late">
@@ -137,7 +152,7 @@ export default function Home() {
           <a href="https://wa.me/264816034637" target="_blank" rel="noreferrer">WhatsApp Chané: +264 81 603 4637</a>
           <p>Windhoek, Namibia</p>
         </div>
-        <div className="footer-verse">Let your light shine<br /><span>before others.</span></div>
+        <div className="footer-verse">Let your light shine<br /><span>before others.</span><small>Matthew 5:16</small></div>
         <div className="footer-bottom"><span>© 2026 Enchanted Artistry CC</span><a href="https://studio.tangison.com">Made by Tangison Studio</a></div>
       </footer>
     </main>

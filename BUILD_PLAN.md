@@ -15,7 +15,7 @@ The client-authorised logo correction changes only the small descriptor line to 
 3. Keep five service categories, but use **Guidance** for mothers through pregnancy, post-partum and breastfeeding.
 4. Content creation must not claim photography. It covers creative content, design and meaningful storytelling.
 5. Use the new black-and-white Chané photograph and the new Anthea outdoor photograph.
-6. Follow the updated hero reference: calling statement on the left and a two-founder presentation composite on the right. Keep the real alternate portraits in the dedicated founder section below.
+6. Follow the final client hero correction: the large corrected logo and brand name lead, the approved introduction sits directly below it, and the separate `More than a brand / It's a calling.` panel follows. The two-founder presentation composite remains on the right on desktop and follows the copy stack on mobile.
 7. Use a staggered two-stroke mobile navigation control, not a generic three-stroke hamburger.
 8. Add restrained reveal motion with a reduced-motion fallback.
 9. Add a favicon, web manifest and public indexing settings.
@@ -25,14 +25,14 @@ The client-authorised logo correction changes only the small descriptor line to 
 - Next.js 16, React 19, TypeScript and local CSS.
 - One static public route, no backend, analytics or invented booking flow.
 - Native CSS and Intersection Observer power page entrance, navigation and hover motion. No motion dependency was added.
-- Email is the only verified public contact route. Public phone numbers remain missing and are not inferred from private registration material.
+- The supplied business email and two client-approved WhatsApp numbers are the verified public contact routes.
 - Verify with lint, production build, desktop/mobile browser renders, menu interaction, image load checks, reduced-motion review and Git remote SHA comparison after push.
 
 ## Rejected alternatives
 
 - Recreating, tracing or changing the official logo as SVG.
 - Generating people or altering supplied founder images.
-- Moving founder portraits into the hero or replacing the reference’s floral editorial hierarchy with generic gradients.
+- Replacing the approved two-founder hero presentation with unrelated or generated people.
 - Repeating the previous faith-based strip or unverified values as live content.
 - Adding photography as a content-creation claim.
 - Publishing missing phone numbers, domains, social accounts, pricing or booking details.

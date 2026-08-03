@@ -2,8 +2,8 @@
 
 ## Message hierarchy
 
-1. Enchanted Artistry brings cosmetology, creativity and caring guidance together.
-2. It is a welcoming, purposeful space for women, including expectant and new mothers.
+1. Enchanted Artistry CC is introduced through its full logo and approved descriptor.
+2. The client-approved introduction explains the brand as a space where beauty, mentorship, creativity and faith come together.
 3. Services are introduced without unverified prices, availability or outcomes.
 4. The real founders carry the story.
 5. Visitors can send a direct email enquiry.
@@ -14,8 +14,8 @@
 
 - Brand line: `Cosmetology ✦ Arts ✦ Mentorship and Guidance`
 - Tagline: `Creating beauty. Inspiring purpose. Cultivating hope.`
-- Statement: `More than a brand. It's a calling.`
-- Body: `We bring cosmetology, creativity and caring guidance together in a welcoming space for women, with particular care for expectant and new mothers.`
+- Introduction: `Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.`
+- Statement panel: `More than a brand` followed by `It's a calling.`
 
 ### Services
 
@@ -40,6 +40,7 @@
 - WhatsApp, Anthea: `+264 81 670 0844`
 - WhatsApp, Chané: `+264 81 603 4637`
 - No second public email was supplied. Do not invent one.
+- Closing verse: `Let your light shine before others.` with reference `Matthew 5:16`.
 
 ## Fact ledger
 

@@ -1,6 +1,6 @@
 # Enchanted Artistry Landing Page
 
-Responsive client-demo landing page built from the client-approved visual reference, authentic founder portraits and the preserved Enchanted Artistry logo.
+Responsive public landing page built from the client-approved visual reference, authentic founder portraits and the preserved Enchanted Artistry logo.
 
 ## Run locally
 
@@ -34,5 +34,5 @@ npm run build
 - Anthea Jade Feris and Chané Yvette Philander use authentic supplied portraits.
 - Generated imagery is limited to the floral background and illustrative service categories.
 - The two user-supplied WhatsApp contacts and one business email are included. Unverified domain and social links remain excluded.
-- The demo is noindexed and has no production booking, shop, form, analytics or deployment.
-- GitHub publishing is the next step after repository access and visibility are confirmed.
+- The site is publicly indexed and has no booking, shop, form or analytics integration.
+- The public GitHub repository is connected to the existing Vercel deployment.
