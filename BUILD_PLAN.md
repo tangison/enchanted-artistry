@@ -28,6 +28,13 @@ The client-authorised logo correction changes only the small descriptor line to 
 - The supplied business email and two client-approved WhatsApp numbers are the verified public contact routes.
 - Verify with lint, production build, desktop/mobile browser renders, menu interaction, image load checks, reduced-motion review and Git remote SHA comparison after push.
 
+## Domain and SEO release, 2026-08-04
+
+- Canonical public domain: `https://www.enchantedna.com/` (verified live).
+- Add canonical metadata, `sitemap.xml`, `robots.txt` sitemap discovery, Open Graph image metadata, manifest start URL and truthful Organization structured data.
+- The Google Search Console property is user supplied as already published. No verification tag is added because no verification token was supplied or required.
+- Verify source checks, generated metadata routes, the live canonical response, rendered head tags and absence of Vercel preview URLs in canonical metadata.
+
 ## Rejected alternatives
 
 - Recreating, tracing or changing the official logo as SVG.

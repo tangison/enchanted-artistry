@@ -53,3 +53,4 @@
 | Email address | User supplied | Current enquiry route |
 | Anthea and Chané WhatsApp numbers | User supplied and explicitly approved for publication | Publish as labelled `wa.me` actions |
 | Additional email addresses, social accounts, domain, pricing and booking policy | Missing | Do not invent or publish |
+| `https://www.enchantedna.com/` canonical public domain | User supplied and live verified | Use for canonical, sitemap, Open Graph and Organization structured data |

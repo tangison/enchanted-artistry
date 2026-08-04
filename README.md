@@ -33,6 +33,7 @@ npm run build
 - Official logo remains raster-based; the original master is untouched and the website derivative changes only the client-authorised descriptor line. No SVG reconstruction is included.
 - Anthea Jade Feris and Chané Yvette Philander use authentic supplied portraits.
 - Generated imagery is limited to the floral background and illustrative service categories.
-- The two user-supplied WhatsApp contacts and one business email are included. Unverified domain and social links remain excluded.
+- The two user-supplied WhatsApp contacts and one business email are included. Unverified social links remain excluded.
+- The canonical public domain is `https://www.enchantedna.com/`, with `robots.txt`, `sitemap.xml`, Open Graph metadata and Organization structured data configured for indexing.
 - The site is publicly indexed and has no booking, shop, form or analytics integration.
 - The public GitHub repository is connected to the existing Vercel deployment.

@@ -12,8 +12,28 @@ const services = [
 ];
 
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Enchanted Artistry CC",
+    url: "https://www.enchantedna.com/",
+    logo: "https://www.enchantedna.com/logos/enchanted-artistry-corrected.png",
+    description: "Enchanted Artistry brings cosmetology, creativity and caring guidance together for women, including expectant and new mothers.",
+    email: "heyitschane@outlook.com",
+    contactPoint: [
+      { "@type": "ContactPoint", telephone: "+264816700844", contactType: "customer service", availableLanguage: "English" },
+      { "@type": "ContactPoint", telephone: "+264816034637", contactType: "customer service", availableLanguage: "English" },
+    ],
+    address: { "@type": "PostalAddress", addressLocality: "Windhoek", addressCountry: "NA" },
+    founder: [
+      { "@type": "Person", name: "Chané Yvette Philander" },
+      { "@type": "Person", name: "Anthea Feris" },
+    ],
+  };
+
   return (
     <main id="top">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <MotionController />
       <Header />
 
