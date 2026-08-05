@@ -49,7 +49,7 @@ export default function Home() {
               sizes="(max-width: 860px) 92vw, 44vw"
               priority
             />
-            <p className="hero-tagline">Creating beauty. Inspiring purpose.<br />Cultivating hope.</p>
+            <p className="hero-tagline">Glow What You Go Through.</p>
             <p className="hero-intro">Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.</p>
             <a className="button" href="#services">Explore our world</a>
           </div>
@@ -124,7 +124,10 @@ export default function Home() {
               <p className="eyebrow">Co-founder</p>
               <h3>Chané Yvette<br />Philander</h3>
               <p className="founder-role">The Creative.</p>
-              <p>Chané shapes the creative spirit of Enchanted, bringing ideas to life through meaningful expression and care.</p>
+              <div className="founder-bio">
+                <p>Chané is a creative entrepreneur, actress, educator, makeup artist and content creator with a passion for helping people discover their God-given identity and purpose. She holds a Bachelor of Arts Honours degree in Psychology, specialising in Clinical Psychology, together with a Postgraduate Diploma in Education, allowing her to blend psychological insight, education and the performing arts into meaningful mentorship.</p>
+                <p>As co-founder of Enchanted Artistry CC and visionary behind Enchanted Academy, Chané is dedicated to equipping children and young people through drama, media, emotional intelligence and biblical principles. Her mission is to cultivate confident, compassionate and resilient individuals who understand both who they are and who God created them to be.</p>
+              </div>
             </div>
           </article>
 
@@ -140,8 +143,13 @@ export default function Home() {
             <div className="founder-copy">
               <p className="eyebrow">Co-founder</p>
               <h3>Anthea Feris</h3>
-              <p className="founder-role">Care with purpose.</p>
-              <p>Anthea brings a thoughtful, people-centred vision to Enchanted, creating room for beauty, guidance and encouragement.</p>
+              <p className="founder-role">The Nurturer.</p>
+              <div className="founder-bio">
+                <p>Anthea is a God-fearing visionary leader with a heart for serving and uplifting others, particularly young mothers and mothers-to-be. She holds a Bachelor of Arts Honours degree in Psychology, specialising in Industrial Psychology.</p>
+                <p>As the visionary behind Enchanted Beginnings, the motherhood division of Enchanted Artistry CC, Anthea is passionate about walking alongside women through the beautiful and challenging seasons of pregnancy, birth, breastfeeding and early motherhood. Having experienced her own challenging pregnancy journey and the joys and struggles of raising three children, she carries a deep compassion and desire to support other mothers with understanding, encouragement and faith.</p>
+                <p>With several years of experience as a Human Resources Practitioner, Anthea has developed a strong understanding of people, relationships and personal growth. She is also a talented hairstylist whose passion for beauty and transformation contributes to Enchanted Hands, which she co-runs alongside Chané. Together, they create spaces where women can feel confident, valued and celebrated through beauty and self-care.</p>
+                <p>Through her unique blend of psychology, professional experience, motherhood, beauty and faith, Anthea brings a compassionate approach to empowering women and helping them embrace every season of life.</p>
+              </div>
             </div>
           </article>
         </div>

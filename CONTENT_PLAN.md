@@ -13,7 +13,7 @@
 ### Hero
 
 - Brand line: `Cosmetology ✦ Arts ✦ Mentorship and Guidance`
-- Tagline: `Creating beauty. Inspiring purpose. Cultivating hope.`
+- Tagline: `Glow What You Go Through.`
 - Introduction: `Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.`
 - Statement panel: `More than a brand` followed by `It's a calling.`
 
@@ -31,8 +31,8 @@
 
 ### Founders
 
-- Chané Yvette Philander, co-founder: `The Creative.`
-- Anthea Feris, co-founder: `Care with purpose.`
+- Chané Yvette Philander, co-founder: `The Creative.` followed by the client-supplied biography covering her psychology, education, creative arts and Enchanted Academy work.
+- Anthea Feris, co-founder: `The Nurturer.` followed by the client-supplied biography covering Enchanted Beginnings, motherhood guidance, human-resources experience and Enchanted Hands.
 
 ### Contact
 
