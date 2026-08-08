@@ -4,11 +4,11 @@ import Header from "../components/Header";
 import MotionController from "../components/MotionController";
 
 const services = [
-  { title: "Makeup", copy: "Beauty looks created with care for your special moments.", image: "/images/service-makeup.webp", alt: "Makeup brushes and cosmetics" },
-  { title: "Hair", copy: "Styling that lets your confidence come through.", image: "/images/service-hair.webp", alt: "Styled hair" },
-  { title: "Drama coaching", copy: "A creative space for expression, confidence and performance.", image: "/images/service-drama.webp", alt: "Theatre masks on silk" },
-  { title: "Guidance", copy: "Guiding mothers through pregnancy, post-partum and breastfeeding.", image: "/images/service-mentorship.webp", alt: "Notebook and pen" },
-  { title: "Content creation", copy: "Creative content, design and meaningful storytelling.", image: "/images/service-content.webp", alt: "Content creation tools" },
+  { title: "Makeup", copy: "Beauty looks created with care for your special moments.", image: "/assets/enchanted/icons/make-up.png", alt: "Makeup brushes and cosmetics" },
+  { title: "Hair", copy: "Styling that lets your confidence come through.", image: "/assets/enchanted/icons/hair.png", alt: "Styled hair" },
+  { title: "Drama coaching", copy: "A creative space for expression, confidence and performance.", image: "/assets/enchanted/icons/drama-classes.png", alt: "Theatre masks on silk" },
+  { title: "Guidance", copy: "Guiding mothers through pregnancy, post-partum and breastfeeding.", image: "/assets/enchanted/icons/mentorship.png", alt: "Notebook and pen" },
+  { title: "Content creation", copy: "Creative content, design and meaningful storytelling.", image: "/assets/enchanted/icons/content-creation.png", alt: "Content creation tools" },
 ];
 
 export default function Home() {
@@ -50,7 +50,7 @@ export default function Home() {
               priority
             />
             <p className="hero-tagline">Glow What You Go Through.</p>
-            <p className="hero-intro">Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.</p>
+            <p className="hero-intro" id="story">We are dreamers, creators and purpose-driven women who believe in unlocking potential, nurturing confidence and creating spaces where creativity and faith come together.</p>
             <a className="button" href="#services">Explore our world</a>
           </div>
 
@@ -73,14 +73,6 @@ export default function Home() {
             priority
           />
         </div>
-      </section>
-
-      <section className="story-strip" id="story" data-reveal>
-        <div>
-          <p className="eyebrow">Our story</p>
-          <h2>Beauty today. Purpose for tomorrow.</h2>
-        </div>
-        <p>Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.</p>
       </section>
 
       <section className="services section" id="services">
