@@ -25,11 +25,16 @@ These are category illustrations, not documentary photographs.
 | Asset | Creation method | Intended use | Restrictions |
 | --- | --- | --- | --- |
 | `hero-floral-original.png` / `public/images/hero-floral.webp` | Generated blush floral field with lavender, rose and gold botanical detail | Hero background | No text or logo embedded |
-| `service-makeup-original.png` / WebP | Generated cosmetics still life | Makeup card | Illustrative only |
-| `service-hair-original.png` / WebP | Generated anonymous rear-view styled hair | Hair card | No person identity claim |
-| `service-drama-original.png` / WebP | Generated theatre-mask still life | Drama card | Illustrative only |
-| `service-mentorship-original.png` / WebP | Generated notebook and pen still life | Guidance card | No programme evidence |
-| `service-content-original.png` / WebP | Generated camera and microphone still life | Content card | No client-work claim |
+| `service-makeup-original.png` / WebP | Generated cosmetics still life | Makeup card (replaced by icon) | Illustrative only |
+| `service-hair-original.png` / WebP | Generated anonymous rear-view styled hair | Hair card (replaced by icon) | No person identity claim |
+| `service-drama-original.png` / WebP | Generated theatre-mask still life | Drama card (replaced by icon) | Illustrative only |
+| `service-mentorship-original.png` / WebP | Generated notebook and pen still life | Guidance card (replaced by icon) | No programme evidence |
+| `service-content-original.png` / WebP | Generated camera and microphone still life | Content card (replaced by icon) | No client-work claim |
+| `public/assets/enchanted/icons/make-up.png` | Client supplied icon | Makeup service card | Watercolour rose-gold icon family |
+| `public/assets/enchanted/icons/hair.png` | Client supplied icon | Hair service card | Watercolour rose-gold icon family |
+| `public/assets/enchanted/icons/drama-classes.png` | Client supplied icon | Drama coaching service card | Watercolour rose-gold icon family |
+| `public/assets/enchanted/icons/mentorship.png` | Client supplied icon | Guidance service card | Watercolour rose-gold icon family |
+| `public/assets/enchanted/icons/content-creation.png` | Client supplied icon | Content creation service card | Watercolour rose-gold icon family |
 | `assets/images-production/founders-hero-chroma-v1.png` | Image-model composite using the two client-supplied studio portraits as identity references | Editable chroma-key source for the hero grouping | Generated presentation artwork, never documentary evidence |
 | `assets/images-production/founders-hero-transparent-v1.png` / `public/images/founders-hero-cutout.webp` | Chroma removal, full-size alpha review, tight crop and WebP optimisation | Transparent master and responsive hero delivery asset | Keep Chané on the left and Anthea on the right; do not present as a single documentary photograph |
 
