@@ -49,8 +49,15 @@ export default function Home() {
               sizes="(max-width: 860px) 92vw, 44vw"
               priority
             />
-            <p className="hero-tagline">Glow What You Go Through.</p>
-            <p className="hero-intro">Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.</p>
+            <p className="hero-tagline">Glow through what you go through.</p>
+            <div className="hero-intro">
+              <p>Our Story</p>
+              <p>Some friendships are formed by chance, while others feel beautifully orchestrated. The friendship between Anthea and Chané is one of those stories.</p>
+              <p>When their paths crossed, it didn&apos;t take long for them to realise how much they had in common. Beyond their shared love for beauty and creativity was something far more meaningful, a genuine passion for people. Both believed that true beauty begins within and that every person deserves to feel seen, valued, and empowered.</p>
+              <p>As their friendship deepened, so did their conversations, dreams, and faith. They discovered that they shared a sensitivity to God&apos;s voice, often finding themselves encouraged in the same seasons, inspired by the same vision, and gently led toward the same purpose. What began as friendship soon became a shared calling.</p>
+              <p>Recognising how naturally their gifts complemented one another, Anthea and Chané envisioned a place where artistry could meet purpose, where creativity could inspire hope, and where beauty could be used to uplift and restore confidence. Together, they founded Enchanted Artistry CC, not simply as a business, but as a reflection of their hearts and their desire to honour God through the work of their hands.</p>
+              <p>Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.</p>
+            </div>
             <a className="button" href="#services">Explore our world</a>
           </div>
 
