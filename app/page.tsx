@@ -50,7 +50,7 @@ export default function Home() {
               priority
             />
             <p className="hero-tagline">Glow What You Go Through.</p>
-            <p className="hero-intro">Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.</p>
+            <p className="hero-intro">Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.</p>
             <a className="button" href="#services">Explore our world</a>
           </div>
 
@@ -93,7 +93,7 @@ export default function Home() {
           {services.map((service, index) => (
             <article className="service-card" key={service.title} data-reveal style={{ transitionDelay: `${index * 65}ms` }}>
               <div className="service-image-wrap">
-                <Image src={service.image} alt={service.alt} width={540} height={380} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 45vw, 20vw" />
+                <Image src={service.image} alt={service.alt} width={1254} height={1254} sizes="(max-width: 700px) 92vw, (max-width: 1100px) 45vw, 20vw" />
               </div>
               <div className="service-card-copy">
                 <h3>{service.title}</h3>
@@ -125,7 +125,7 @@ export default function Home() {
               <h3>Chané Yvette<br />Philander</h3>
               <p className="founder-role">The Creative.</p>
               <div className="founder-bio">
-                <p>Chané is a creative entrepreneur, actress, educator, makeup artist and content creator with a passion for helping people discover their God-given identity and purpose. She holds a Bachelor of Arts Honours degree in Psychology, specialising in Clinical Psychology, together with a Postgraduate Diploma in Education, allowing her to blend psychological insight, education and the performing arts into meaningful mentorship.</p>
+                <p>Chané is a creative entrepreneur, actress, educator, makeup artist and content creator with a passion for helping people discover their core identity and purpose. She holds a Bachelor of Arts Honours degree in Psychology, specialising in Clinical Psychology, together with a Postgraduate Diploma in Education, allowing her to blend psychological insight, education and the performing arts into meaningful mentorship.</p>
                 <p>As co-founder of Enchanted Artistry CC and visionary behind Enchanted Academy, Chané is dedicated to equipping children and young people through drama, media, emotional intelligence and biblical principles. Her mission is to cultivate confident, compassionate and resilient individuals who understand both who they are and who God created them to be.</p>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function Home() {
               <h3>Anthea Feris</h3>
               <p className="founder-role">The Nurturer.</p>
               <div className="founder-bio">
-                <p>Anthea is a God-fearing visionary leader with a heart for serving and uplifting others, particularly young mothers and mothers-to-be. She holds a Bachelor of Arts Honours degree in Psychology, specialising in Industrial Psychology.</p>
+                <p>Anthea is a devoted visionary leader with a heart for serving and uplifting others, particularly young mothers and mothers-to-be. She holds a Bachelor of Arts Honours degree in Psychology, specialising in Industrial Psychology.</p>
                 <p>As the visionary behind Enchanted Beginnings, the motherhood division of Enchanted Artistry CC, Anthea is passionate about walking alongside women through the beautiful and challenging seasons of pregnancy, birth, breastfeeding and early motherhood. Having experienced her own challenging pregnancy journey and the joys and struggles of raising three children, she carries a deep compassion and desire to support other mothers with understanding, encouragement and faith.</p>
                 <p>With several years of experience as a Human Resources Practitioner, Anthea has developed a strong understanding of people, relationships and personal growth. She is also a talented hairstylist whose passion for beauty and transformation contributes to Enchanted Hands, which she co-runs alongside Chané. Together, they create spaces where women can feel confident, valued and celebrated through beauty and self-care.</p>
                 <p>Through her unique blend of psychology, professional experience, motherhood, beauty and faith, Anthea brings a compassionate approach to empowering women and helping them embrace every season of life.</p>

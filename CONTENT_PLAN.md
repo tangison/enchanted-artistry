@@ -14,7 +14,7 @@
 
 - Brand line: `Cosmetology ✦ Arts ✦ Mentorship and Guidance`
 - Tagline: `Glow What You Go Through.`
-- Introduction: `Today, Enchanted Artistry CC stands as more than a creative brand. It is a space where beauty, mentorship, creativity, and faith come together to encourage others to discover their God-given gifts, embrace their unique identity, and flourish with confidence and purpose.`
+- Introduction: `Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.`
 - Statement panel: `More than a brand` followed by `It's a calling.`
 
 ### Services
