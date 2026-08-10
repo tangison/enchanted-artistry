@@ -13,7 +13,7 @@
 ### Hero
 
 - Brand line: `Cosmetology ✦ Arts ✦ Mentorship and Guidance`
-- Tagline: `Glow What You Go Through.`
+- Tagline: `Corrected hero slogan now in hero section (see app/page.tsx)`
 - Introduction: `Enchanted Artistry is a home for beauty, creativity and meaningful encouragement. It begins with considerate cosmetology and grows into guidance for mothers, creative expression and purposeful community work.`
 - Statement panel: `More than a brand` followed by `It's a calling.`
 
